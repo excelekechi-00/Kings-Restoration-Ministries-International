@@ -40,7 +40,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.2rem 3rem;
+    padding: 1rem 2rem;
     background: rgba(10,13,22,0.92);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid rgba(201,168,76,0.15);
@@ -60,18 +60,21 @@
 
   .nav-links {
     display: flex;
-    gap: 2.5rem;
+    gap: 1.4rem;
     list-style: none;
+    flex-wrap: nowrap;
+    align-items: center;
   }
 
   .nav-links a {
-    font-size: 0.78rem;
-    letter-spacing: 0.12em;
+    font-size: 0.68rem;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--cream);
     text-decoration: none;
     font-weight: 400;
     transition: color 0.3s;
+    white-space: nowrap;
   }
 
   .nav-links a:hover { color: var(--gold); }
@@ -843,16 +846,14 @@
     <div>
       <span class="section-tag">✦ Who We Are</span>
       <h2 class="section-title">A Community<br>Built on <em>Faith</em></h2>
-      <p class="section-body">Kings Restoration Ministries International – Sanctuary of Praise Our Mandate speaks of Restoration in all facets of human existence.We focus mainly on destinies that have been afflicted,beaten,tattered and subsequently in groaning and agonies as a result of pains,pangs and crying that’s in the mandate..</p>
+      <p class="section-body">Kings Restoration Ministries International – Sanctuary of Praise Our Mandate speaks of Restoration in all facets of human existence.We focus mainly on destinies that have been afflicted,beaten,tattered and subsequently in groaning and agonies as a result of pains,pangs and crying that’s in the mandate.</p>
 
       <div class="about-values">
         <div class="value-item">
           <div class="value-icon">✝</div>
           <div>
             <p class="value-title">Restoration</p>
-            <p class="value-desc"> Our mission is to lead people to become fully devoted followers of Christ.
-
-God is the Creator and Ruler of the universe. He has eternally existed as the Father, the Son, and the Holy Spirit. The three are coequal and are one God..</p>
+            <p class="value-desc">Our mission is to lead people to become fully devoted followers of Christ.</p>
           </div>
         </div>
         <div class="value-item">
@@ -1096,6 +1097,7 @@ God is the Creator and Ruler of the universe. He has eternally existed as the Fa
   </div>
 </section>
 
+
 <!-- GALLERY -->
 <div class="section-full" style="background:var(--deep2);border-top:1px solid rgba(201,168,76,0.1);border-bottom:1px solid rgba(201,168,76,0.1);padding:6rem 0;">
   <div class="section-inner">
@@ -1144,7 +1146,6 @@ God is the Creator and Ruler of the universe. He has eternally existed as the Fa
 
   </div>
 </div>
-
 
 <!-- FOOTER -->
 <footer>
